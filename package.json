@@ -1,0 +1,16 @@
+{
+  "name": "nextjs",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "SET NODE_ENV=dev & node ./server/server.js",
+    "build": "next build",
+    "start": "node ./server/server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "next": "10.0.4",
+    "react": "17.0.1",
+    "react-dom": "17.0.1"
+  }
+}
